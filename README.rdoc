@@ -1,0 +1,22 @@
+= TS3Bot
+
+== Install
+
+Simply run 
+  gem install ts3bot, :git => 'git://github.com/aetaric/ts3bot.git'
+
+== Using the bot
+
+  require 'ts3bot'
+  @bot = TS3Bot.new
+  @bot.run
+
+This will create the initial config file on the 'TS3Bot.new' line and on run the bot will ask you questions to set it up.
+
+== Known caveats
+
+The bot won't work well with Rails and shouldn't be used with it. YMMV but you have been warned.
+
+== Copyright
+
+Copyright (c) 2012-2013 ECS Gaming. See LICENSE.txt for more info.
